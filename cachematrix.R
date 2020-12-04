@@ -1,7 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
 ## Expect the matrix supplied is invertible, using inv <- NULL (because value is undefined)
 ## Then we set the value of the matrix with the function set()
 ## Get the value of the matrix and the inverse
@@ -17,8 +16,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
 
-
-## Write a short comment describing this function
 ## Write a short comment describing this function
 ## inv returns a matrix that is inverse of X
 ## It return the inverse
